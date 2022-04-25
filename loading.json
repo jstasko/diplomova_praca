@@ -1,0 +1,44 @@
+ {
+	"d": 1,
+	"outer_pore_r": 7.5,
+	"inner_pore_r": 3.25,
+	"length_cone": 12.5,
+	"length_pore": 5,
+	"rbc_count": 7,
+	"plt_count": 21,
+	"rbc_r": 4.0,
+	"plt_r": 2.0,
+	"rbc_plt_morse": {
+		"eps": 0.0035,
+		"alpha": 10.0,
+		"rmin": 0.45,
+		"cutoff": 0.7
+	},
+	"plt_plt_morse": {
+		"eps": 0.001,
+		"alpha": 10.0,
+		"rmin": 0.45,
+		"cutoff": 0.7
+	},
+	"plt_particles_morse": {
+		"eps": 0.012,
+		"alpha": 10.0,
+		"rmin": 0.45,
+		"cutoff": 0.9
+	},
+	"rbc_rbc_morse": {
+		"eps": 0.001,
+		"alpha": 10.0,
+		"rmin": 0.45,
+		"cutoff": 0.7
+	},
+	"fluid": {
+		"viscosity": 1,
+		"ext_force_density_x": 0.0008
+	},
+	"rbc": {
+		"ks": 0.005,
+		"kal": 0.02
+	},
+	"previous_checkpoint": "output/sim30009/CheckPoint29500"
+}
